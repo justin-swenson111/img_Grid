@@ -8,9 +8,8 @@
 
         .container{
             display: grid;
-            padding: 25px;
             grid-template-columns: repeat(5, 1fr);
-            grid-template-rows: repeat(19, 300px);
+            grid-template-rows: repeat(19, 0.5fr);
             grid-template-areas: 
             "img00 img00 img00 img00 img01"
             "img00 img00 img00 img00 img02"
@@ -111,19 +110,22 @@
             height: 100%;
         }
         p>a{
-            font-size: 100px;
+            font-size: 50px;
+            font-weight: bolder;
             color: black;
             padding: 0px 50px 20px 50px;
             text-decoration: none;
         }
         nav{
-            width: 3060px;
-            padding: 0 0 10px 0;
+            background-color: palevioletred;
+            border-top: 10px solid gray;
+
 
         }
         body{
-            border: 30px solid gray;
-            background-color: palevioletred;
+            border-bottom: 10px solid gray;
+            border-right: 10px solid gray;
+            border-left: 10px solid gray;
 
         }
     </style>
@@ -151,7 +153,7 @@
         </div>
         <div class=" item-3">
             <!-- item02 -->
-             <a href="#">
+             <a href="https://www.twitter.com">
                  <img src="ProjectImages/ce_image02.png" alt="">
 
              </a>
